@@ -8,7 +8,7 @@ Miniespecificacion
 6_ arreglo <-- {{20, 30, 40, 50},{2, 3, 4, 5},{200, 300, 400, 500},{10, 11, 12, 14}
 7_ Para(fila<--0, fila<4, 1) haga
 8_	Para(columna<--0, columna<4, 1) haga
-9_		Si ((fila<--1 AND colummna <--0)OR(fila<--2 AND columna<--		0)OR(fila<--2 AND colummna <--1)OR(fila<--3 AND colummna 			<--0)OR(fila<--3 AND colummna <--1)OR(fila<--3 AND colummna 		<--2))
+9_		Si ((fila<--0 AND colummna <--1)OR(fila<--0 AND columna<--			2)OR(fila<--0 AND colummna <--3)OR(fila<--1 AND colummna 			<--2)OR(fila<--1 AND colummna <--3)OR(fila<--2 AND colummna 		<--3))
 10_		valor <-- arreglo[fila][columna]
 11_		Fin si
 12_		Escribir valor

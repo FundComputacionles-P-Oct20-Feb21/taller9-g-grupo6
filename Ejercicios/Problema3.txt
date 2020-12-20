@@ -1,0 +1,14 @@
+Miniespecificacion 
+
+1. Inicio
+2. notas(3)(4), i[0,n]
+3. estudiantes (3), i[0,n]
+5. estudiantes <-- {Jerry Ponce, Gabriela Lews, David Bell}
+6. valores <-- {{20, 30, 40, 50}, { 2, 3, 4, 5}, {200, 300, 400, 500,},
+	{10, 11, 12, 14}}
+7. promedios (3), d[0,n] 
+8. Para (notas <-- 0 ; notas < 4 ; notas++) haga
+9.    promedios (notas) <-- notas(notas)(1) + notas(notas)(2) + notas			(notas)(3)
+10.    Escribir "Estudiante" + estudiantes(notas) "tiene un promedio de: + 		promedios(notas)    
+11. Fin Para    
+12. Fin
