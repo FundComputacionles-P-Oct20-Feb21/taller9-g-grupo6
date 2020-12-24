@@ -13,8 +13,8 @@ Miniespecificación
 11_	Si ((nombre <-- 1) entonces
 12_ 	Para (columnas<--0; columnas<--5; 1) haga
 13_		Escribir las ventas del Jessica
-14_             leer ventas (0)(fila) 
-15_             suma < -- suma + ventas (0)(fila)
+14_             leer ventas (0)(columnas) 
+15_             suma < -- suma + ventas (0)(columnas)
 16_     fin para.
 17_     De lo contario 
 18_		Para (columnas<--0; columnas<--5; 1) haga
