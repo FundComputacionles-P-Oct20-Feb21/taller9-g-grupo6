@@ -12,18 +12,18 @@ Miniespecificación
 10_	Leer nombre
 11_	Si ((nombre <-- 1) entonces
 12_ 	Para (columnas<--0; columnas<--5; 1) haga
-13_		Escribir las ventas del Jessica
+13_		Escribir "las ventas del Jessica"
 14_             leer ventas (0)(columnas) 
 15_             suma < -- suma + ventas (0)(columnas)
 16_     fin para.
 17_     De lo contario 
 18_		Para (columnas<--0; columnas<--5; 1) haga
-19_		Escribir las ventas del Jessica
+19_		Escribir "las ventas del Robert"
 20_             leer ventas (1)(columnas) 
 21_             suma < -- suma + ventas (1)(columnas)
 22_      fin para
 23_     Fin Si
-24_     Escribir "Venderos (a)" + vendedores(i).
+24_     Escribir "Vendedores (a)" + vendedores(i).
 25_ Fin para
 26_  Escribir "Han realizado un total de:" + suma "en ventas"
 27_ Fin.
